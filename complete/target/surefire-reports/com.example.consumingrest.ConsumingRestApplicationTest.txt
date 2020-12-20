@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.consumingrest.ConsumingRestApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.267 s <<< FAILURE! - in com.example.consumingrest.ConsumingRestApplicationTest
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://gturnquist-quoters.cfapps.io/api/random": Connection timed out: connect; nested exception is java.net.ConnectException: Connection timed out: connect
+Caused by: java.net.ConnectException: Connection timed out: connect
+
